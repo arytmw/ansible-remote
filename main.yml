@@ -5,5 +5,5 @@
   tasks:
    - name: install mariadb package
      yum:
-        name: mariadb
+        name: mariadb-server
         state: present
