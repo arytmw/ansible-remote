@@ -1,0 +1,9 @@
+---
+- name: basic jobs
+  hosts: all
+  become: true
+  tasks:
+   - name: install mariadb package
+     yum:
+        name: mariadb
+        state: present
